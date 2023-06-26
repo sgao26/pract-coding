@@ -1,0 +1,4 @@
+﻿  split25pt1.cpp
+C:\Users\trolu\source\repos\pract-edabit-cpp\split-25-pt1\split-25-pt1\split25pt1.cpp(13,13): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\trolu\source\repos\pract-edabit-cpp\split-25-pt1\split-25-pt1\split25pt1.cpp(16,24): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  split-25-pt1.vcxproj -> C:\Users\trolu\source\repos\pract-edabit-cpp\split-25-pt1\x64\Debug\split-25-pt1.exe
