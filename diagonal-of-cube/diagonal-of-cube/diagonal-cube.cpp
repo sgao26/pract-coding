@@ -1,4 +1,5 @@
 // https://edabit.com/challenge/uEiTAhNN6HgESspWb
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -6,6 +7,7 @@ using namespace std;
 
 // originally the website wanted the function to return float type but it caused errors with precision and altered result
 // example: test failed, expected 3.46, got 3.46
+
 double cubeDiagonal(int volume) {
     double result = sqrt(3) * cbrt(volume);
     return round(result * 100) / 100;
