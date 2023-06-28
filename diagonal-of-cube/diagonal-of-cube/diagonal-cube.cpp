@@ -1,3 +1,5 @@
+// https://edabit.com/challenge/uEiTAhNN6HgESspWb
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
