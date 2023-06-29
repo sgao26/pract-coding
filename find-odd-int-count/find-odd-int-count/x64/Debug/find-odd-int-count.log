@@ -1,0 +1,3 @@
+﻿  find-odd-int-count.cpp
+C:\Users\trolu\source\repos\pract-edabit-cpp\find-odd-int-count\find-odd-int-count\find-odd-int-count.cpp(21): warning C4715: 'findOdd': not all control paths return a value
+  find-odd-int-count.vcxproj -> C:\Users\trolu\source\repos\pract-edabit-cpp\find-odd-int-count\x64\Debug\find-odd-int-count.exe
