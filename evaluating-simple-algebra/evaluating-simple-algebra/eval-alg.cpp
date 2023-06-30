@@ -1,3 +1,6 @@
+// https://edabit.com/challenge/su4fC3zugSBmS5bfq
+// doesnt work in ide but works on the edabit when put into the code section
+
 #include <iostream>
 #include <string>
 #include <sstream>

@@ -1,5 +1,5 @@
-// https://edabit.com/challenge/su4fC3zugSBmS5bfq
-// doesnt work in ide but works on the edabit when put into the code section
+// https://edabit.com/challenge/wgnmQTbfssuhvZHqe
+
 #include <iostream>
 #include <vector>
 #include <map>
