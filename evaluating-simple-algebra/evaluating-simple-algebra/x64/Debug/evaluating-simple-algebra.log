@@ -1,0 +1,4 @@
+﻿  eval-alg.cpp
+C:\Users\trolu\source\repos\pract-edabit-cpp\evaluating-simple-algebra\evaluating-simple-algebra\eval-alg.cpp(51,36): warning C4101: 'e': unreferenced local variable
+C:\Users\trolu\source\repos\pract-edabit-cpp\evaluating-simple-algebra\evaluating-simple-algebra\eval-alg.cpp(56,32): warning C4101: 'e': unreferenced local variable
+  evaluating-simple-algebra.vcxproj -> C:\Users\trolu\source\repos\pract-edabit-cpp\evaluating-simple-algebra\x64\Debug\evaluating-simple-algebra.exe
