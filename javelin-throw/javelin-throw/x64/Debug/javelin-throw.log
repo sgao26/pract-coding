@@ -1,0 +1,4 @@
+﻿  javelin-throw.cpp
+C:\Users\trolu\source\repos\pract-edabit-cpp\javelin-throw\javelin-throw\javelin-throw.cpp(12,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\trolu\source\repos\pract-edabit-cpp\javelin-throw\javelin-throw\javelin-throw.cpp(13,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  javelin-throw.vcxproj -> C:\Users\trolu\source\repos\pract-edabit-cpp\javelin-throw\x64\Debug\javelin-throw.exe
