@@ -5,24 +5,17 @@
 #include <string>
 using namespace std;
 
+using namespace std;
+
 vector<string> afterNDays(vector<string> days, int n) {
-    vector<string> days_of_week = { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
-    vector<string> result;
-
-    for (string day : days) {
-        int index = 0;
-        for (int i = 0; i < days_of_week.size(); i++) {
-            if (days_of_week[i] == day) {
-                index = i;
-                break;
-            }
-        }
-
-        int new_index = (index + n) % 7;
-        result.push_back(days_of_week[new_index]);
-    }
-
-    return result;
+	vector<string> dayNames = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
+	for (string& day : days) {
+		int pos = find(dayNames.begin(), dayNames.end(), day) - dayNames.begin();
+		pos += n;
+		pos = pos % 7;
+		day = dayNames[pos];
+	}
+	return days;
 }
 
 int main() {
