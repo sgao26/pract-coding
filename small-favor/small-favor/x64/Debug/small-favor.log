@@ -1,0 +1,3 @@
+﻿  small-favor.cpp
+C:\Users\trolu\source\repos\pract-edabit-cpp\small-favor\small-favor\small-favor.cpp(15,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  small-favor.vcxproj -> C:\Users\trolu\source\repos\pract-edabit-cpp\small-favor\x64\Debug\small-favor.exe
