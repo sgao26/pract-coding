@@ -1,6 +1,7 @@
 // https://edabit.com/challenge/rscwis53jKokoKRYo
 // level: very hard
 
+
 #include <vector>
 #include <iostream>
 using namespace std;
