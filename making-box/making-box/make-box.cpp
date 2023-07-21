@@ -1,7 +1,6 @@
 // https://edabit.com/challenge/yHeTBuJ6LDw3nhA7k
 // level: hard
 
-
 #include <iostream>
 #include <vector>
 #include <string>
