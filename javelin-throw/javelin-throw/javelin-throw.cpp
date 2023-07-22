@@ -1,6 +1,7 @@
 // https://edabit.com/challenge/cS48jymeLrkjhDZ8x
 // level: very hard
 
+
 #define _USE_MATH_DEFINES
 #include <iostream>
 #include <string>
