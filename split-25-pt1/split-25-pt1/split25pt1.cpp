@@ -19,7 +19,6 @@ int split(int num) {
 
 	return pow(3, threes) * lastint;
 }
-
 // saw a better solution:
 /*
 int split(int n) {
