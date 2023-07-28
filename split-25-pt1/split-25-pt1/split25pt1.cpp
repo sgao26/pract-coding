@@ -1,6 +1,7 @@
 // https://edabit.com/challenge/PbtMHCLm83NwqSnnS
 // level: very hard
 
+
 #include <iostream>
 #include <cmath>
 using namespace std;
