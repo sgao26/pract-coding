@@ -1,4 +1,5 @@
 // https://edabit.com/challenge/QTHN5LWYqdBWm4tBz
+// level: hard
 
 #include <iostream>
 #include <vector>
