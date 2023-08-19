@@ -1,4 +1,5 @@
 // https://edabit.com/challenge/uEiTAhNN6HgESspWb
+// level: hard
 
 #include <iostream>
 #include <cmath>
