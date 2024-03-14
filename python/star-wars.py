@@ -1,3 +1,6 @@
+#edabit: easy
+#https://edabit.com/challenge/8pDH2SRutPoaQghgc
+
 def relation_to_luke(name):
   relation = ""
   if name == "Darth Vader":
@@ -12,6 +15,9 @@ def relation_to_luke(name):
 
 #testing
 relation_to_luke("Darth Vader")
+
 relation_to_luke("Leia")
+
 relation_to_luke("Han")
+
 relation_to_luke("R2D2")
