@@ -8,6 +8,7 @@ def snakefill(n):
 		times_eaten += 1
 	return times_eaten
 
+
 #testing
 print(snakefill(3)) # 3
 print(snakefill(6)) # 5
