@@ -29,3 +29,20 @@ print(advanced_sort([80,80,4,60,60,3])) # [[80,80],[4],[60,60],[3]]
 print(advanced_sort(['c','c','b','c','b',1,1])) # [['c','c','c'],['b','b'],[1,1]]
 print(advanced_sort([1234, 1235, 1234, 1235, 1236, 1235])) # [[1234, 1234],[1235, 1235, 1235],[1236]]
 print(advanced_sort(['1234', '1235', '1234', '1235', '1236', '1235'])) # [['1234', '1234'],['1235', '1235', '1235'],['1236']]
+
+# better method:
+
+# def advanced_sort(lst):
+	
+# 	#sorted sorts iterable objects in ascending order by default 
+# 	#(key=lst.index makes it sort by the order elements show up in)
+# 	#converting lst(list) to a set, will remove dupes as lists can have dupes and sets cannot
+	
+# 	unique_elements = sorted(set(lst), key=lst.index)
+# 	sorted_list = []
+# 	for i in unique_elements:
+# 		sorted_list.append([i] * lst.count(i))
+		
+# 	# sorted_list = [[i] * lst.count(i) for i in unique_elements]
+	
+# 	return sorted_list
