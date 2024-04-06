@@ -36,5 +36,5 @@ for i, x in enumerate(num_vector):
 print("All tests passed successfully.")
 
 # better method:
-def better_staircase(n):
-	return '\n'.join(['_'*(abs(n)-1-i)+'#'*(i+1) for i in range(abs(n))][::n//abs(n)])
+#def staircase(n):
+#	return '\n'.join(['_'*(abs(n)-1-i)+'#'*(i+1) for i in range(abs(n))][::n//abs(n)])
