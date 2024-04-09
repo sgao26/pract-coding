@@ -26,3 +26,10 @@ print(id_mtrx(3)) # [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
 print(id_mtrx(4)) # [[1, 0, 0, 0], [0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1]]
 print(id_mtrx(-6)) # [[0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 1, 0], [0, 0, 0, 1, 0, 0], [0, 0, 1, 0, 0, 0], [0, 1, 0, 0, 0, 0], [1, 0, 0, 0, 0, 0]]
 print(id_mtrx("edabit")) # "Error" ----- 'Incompatible types passed as n should return the string "Error".'
+
+# better method:
+#def id_mtrx(n):
+#	try:
+#		return [[int(i == j) for i in range(abs(n))] for j in range(abs(n))][::sign(n)]
+#	except:
+#		return 'Error'
