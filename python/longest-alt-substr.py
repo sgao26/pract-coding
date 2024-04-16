@@ -42,3 +42,13 @@ print(longest_substring("198644286258141856918653955964")) # "2581418569"
 print(longest_substring("643349187319779695864213682274")) # "349"
 print(longest_substring("919331281193713636178478295857")) # "36361"
 print(longest_substring("2846286484444288886666448822244466688822247")) # "47"
+
+# better method:
+#def longest_substring(digits):
+#    res = digits[0]
+#    for i in digits[1:]:
+#        if int(i)%2 != int(res[-1])%2:
+#            res += i
+#        else:
+#            res += ' ' + i
+#    return max(res.split(), key=len)
