@@ -45,4 +45,16 @@ print(final(3, 4, ['1r', '1r', '1r', '3c', '3c', '3c'])) # [[0, 0, 0, 3], [3, 3,
 print(final(10, 1, ['1r', '2r', '3r', '0c'])) # [[1], [2], [2], [2], [1], [1], [1], [1], [1], [1]]
 
 print(final(2, 5, ['1r', '1r', '1r', '1c', '0c', '0c', '1r', '0c', '1r', '0c'])) # [[4, 1, 0, 0, 0], [9, 6, 5, 5, 5]]
+
+# better method
+#import numpy as np
+
+#def final(r, c, i):
+#    arr = np.zeros((r, c))
+#    for idx, d in i:
+#        if d == 'r':
+#            arr[int(idx)] += 1
+#        else:
+#            arr[:,int(idx)] += 1
+#    return arr.tolist()
 		
