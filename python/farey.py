@@ -1,3 +1,6 @@
+# edabit: expert
+#https://edabit.com/challenge/c6FoPFprcNW6u5oAn
+
 from math import gcd
 
 def get_value(fraction):
