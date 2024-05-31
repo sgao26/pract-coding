@@ -1,5 +1,4 @@
 # edabit: very hard
-# 6 minutes
 # https://edabit.com/challenge/Fpymv2HieqEd7ptAq
 
 def split(txt):
