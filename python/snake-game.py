@@ -19,3 +19,8 @@ print(snakefill(555)) # 18
 print(snakefill(2)) # 2
 print(snakefill(1)) # 0
 print(snakefill(900)) # 19
+
+# better method
+#import math
+#def snakefill(n):
+#	return math.floor(math.log2(n**2))
