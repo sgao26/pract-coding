@@ -1,11 +1,11 @@
 # edabit: expert
 # https://edabit.com/challenge/siuKPSYXjjic9zEF2
 
-import numpy
+import math
 
 def foil(length):
 	diameter = 4.0
-	circum = diameter*numpy.pi
+	circum = diameter*math.pi
 	length_left = length
 	while True:
 		if length_left <= circum and length_left >= circum / 2:
@@ -19,7 +19,7 @@ def foil(length):
 		else:
 			length_left -= circum
 			diameter += 0.005
-			circum = diameter*numpy.pi
+			circum = diameter*math.pi
 	return round(diameter, 4)
 
 #testing
