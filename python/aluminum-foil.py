@@ -31,3 +31,10 @@ print(foil(13))     # 4.0075
 print(foil(1000))   # 4.3825
 print(foil(7777))   # 6.385
 print(foil(123456)) # 20.2275
+
+# better method:
+# from math import pi, sqrt, ceil
+
+# def foil(length):
+# 	roll = ceil(sqrt(1600/pi * length + 2556801) - 1599)
+# 	return 4 + 0.0025 * roll
