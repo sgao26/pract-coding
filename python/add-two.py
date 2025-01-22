@@ -1,5 +1,24 @@
 # https://edabit.com/challenge/oFqkxLiqeSGL8xmBn
 
+class ListNode:
+	def __init__(self, val=0, next=None):
+		self.val = val
+		self.next = next
+
+	def add_data(self, lst):
+		current = self
+		while lst:
+			current.next = ListNode(lst[0])
+			current = current.next
+			lst = lst[1:]
+	def get_data(self):
+		res = []
+		current = self
+		while current:
+			res.append(current.val)
+			current = current.next
+		return res
+
 def add_two_numbers(l1, l2):
 	list1 = l1.get_data()
 	list1.reverse()
